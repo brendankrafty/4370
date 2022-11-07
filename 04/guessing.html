@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <script>
+        function changeColors(bg, text) {
+            document.body.style.backgroundColor = bg;
+            document.body.style.color = text;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Guessing Game</h1>
+    <br><br><br>
+    <p><a href="index.html">Back to Index</a></p>
+    <p>© Brendan Krafty 2022</p>
+
+    <script>
+        var bg_color = prompt("Tell me what background color you would like to see!");
+        var text_color = prompt("And how about the text color?");
+        changeColors(bg_color, text_color);
+    </script>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
